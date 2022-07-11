@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JupiterProjectV1">
+
+	<listeners>
+		<listener class-name="com.jupiterproject.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="JupiterProject Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+]
+					<class name="com.jupiterproject.testCases.TC_ContactTest_T1" /> 
+			 <class name="com.jupiterproject.testCases.TC_ContactDDT_T2" />    
+			 	<class name="com.jupiterproject.testCases.TC_ShoppingTest_T3" /> 
+			  			
+		</classes>
+
+	</test>
+
+</suite>
